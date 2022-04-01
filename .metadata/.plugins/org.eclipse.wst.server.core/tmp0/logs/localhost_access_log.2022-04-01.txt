@@ -123,3 +123,14 @@
 0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:12:12 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Find+All HTTP/1.1" 200 631
 0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:12:17 +0530] "GET /Learners_Academy/AllotTeacher.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:12:28 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Find+All HTTP/1.1" 200 631
+127.0.0.1 - - [01/Apr/2022:16:14:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:14:37 +0530] "GET /Learners_Academy/Login.html HTTP/1.1" 200 593
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:14:49 +0530] "POST /Learners_Academy/AdminServlet HTTP/1.1" 200 503
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:14:51 +0530] "GET /Learners_Academy/Classes.html HTTP/1.1" 200 482
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:14:53 +0530] "GET /Learners_Academy/AllotTeacher.html HTTP/1.1" 200 959
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:14:59 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=&allocatedTeacher=&allocatedSubject=&allocatedClass=&button=Find+All HTTP/1.1" 200 631
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:15:14 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Save HTTP/1.1" 200 210
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:15:22 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Find+All HTTP/1.1" 200 751
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:15:28 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Delete HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:15:31 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Find+All HTTP/1.1" 200 631
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:16:15:41 +0530] "GET /Learners_Academy/ClassBusinessesServlet?slNo=3&allocatedTeacher=alok+kumar&allocatedSubject=english&allocatedClass=9A&button=Find+All HTTP/1.1" 200 631
