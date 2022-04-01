@@ -1,0 +1,55 @@
+package com.learnersacademy.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.learnersacademy.bean.AdminBean;
+import com.learnersacademy.bean.StudentBean;
+import com.learnersacademy.util.DBConnection;
+
+public class AdminDao {
+	
+	public static void main(String[] args) {
+		int user = 5;
+		AdminDao admDao = new AdminDao();
+		StudentBean admin =  admDao.getAdminByUserName(user);
+		
+		System.out.println(admin.getSlNo());
+		System.out.println(admin.getFirstName());
+		System.out.println(admin.getLastName());
+		
+		
+		
+	}
+	
+	public StudentBean getAdminByUserName(int userName)
+	{
+		StudentBean bean = new StudentBean();
+		
+			try{
+				Connection con = DBConnection.getConnection();
+				Statement stmt = con.createStatement();
+				String qury = "select * from student_tb where slno=" + userName;
+				
+				ResultSet rs = stmt.executeQuery(qury);
+				if(rs.next())
+				{
+					bean.setSlNo(rs.getInt(1));;
+					bean.setFirstName(rs.getString(2));;
+					bean.setLastName(rs.getString(3));
+				}
+				else
+				{
+					bean = null;
+				}
+				
+			} 
+			catch (Exception e) 
+			{
+				e.printStackTrace();
+			}
+		return bean;
+	}
+
+}

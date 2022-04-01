@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<%@page import="com.learnersacademy.bean.*" %>
+<%@page import="java.util.List" %>
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2 align="center">Drop Down List</h2>
+	
+	
+	<%
+		List <ClassBean> list = (List<ClassBean>) request.getAttribute("listOfStdObj");
+	%>
+	
+	<div>
+	
+		<label>Country Name</label>
+		<select>
+		
+			<option value="-1">Select Country</option>
+			
+			<%
+			  for(ClassBean bean : list)
+			  {
+		    %>
+		      <option value="<%=bean.getAllocatedClass() %>"></option>
+		    <%
+			  }
+		    %>
+		
+		</select>
+	
+	</div>
+
+</body>
+</html>

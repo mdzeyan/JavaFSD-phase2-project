@@ -1,0 +1,57 @@
+package com.learnersacademy.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.learnersacademy.bean.StudentBean;
+import com.learnersacademy.service.StudentBusinessesService;
+
+
+public class StudentBusinesses extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	StudentBusinessesService service = new StudentBusinessesService();
+
+    public StudentBusinesses() {
+        super();
+       
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String buttonValue = request.getParameter("button");
+		
+		if(buttonValue.equalsIgnoreCase(request.getParameter("Save")))
+		{
+			int slNo = Integer.parseInt(request.getParameter("slNo"));
+			String firstName = request.getParameter("firstName");
+			String lastName = request.getParameter("lastName");
+			
+			StudentBean bean = new StudentBean();
+			bean.setSlNo(slNo);
+			bean.setFirstName(firstName);
+			bean.setLastName(lastName);
+			
+		}
+		else if(buttonValue.equalsIgnoreCase(request.getParameter("Delete")))
+		{
+			
+		}
+		else if(buttonValue.equalsIgnoreCase(request.getParameter("View")))
+		{
+			
+		}
+		
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
+	}
+
+}

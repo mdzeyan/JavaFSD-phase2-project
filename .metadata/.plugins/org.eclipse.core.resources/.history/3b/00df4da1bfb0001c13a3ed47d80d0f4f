@@ -1,0 +1,17 @@
+package com.learnersacademy.bean;
+
+public class AddClassBean {
+	
+	private String className;
+
+	public String getClas() {
+		return clas;
+	}
+
+	public void setClas(String clas) {
+		this.clas = clas;
+	}
+	
+	
+
+}

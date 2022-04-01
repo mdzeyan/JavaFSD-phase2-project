@@ -1,0 +1,42 @@
+package com.learnersacademy.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.learnersacademy.been.EmployeeBeen;
+import com.learnersacademy.util.DBConnection;
+
+public class AdminDao {
+	
+	public AdminBean getEmployeeById(String userName)
+	{
+		AdminBean bean = new AdminBean();
+		
+			try{
+				Connection con = DBConnection.getConnection();
+				Statement stmt = con.createStatement();
+				String qury = "select * from employee_tb2 where empid=" + userName;
+				ResultSet rs = stmt.executeQuery(qury);
+				if(rs.next())
+				{
+					been.setEmpId(rs.getInt(1));
+					been.setName(rs.getString(2));
+					been.setSalary(rs.getFloat(3));
+				}
+				else
+				{
+					been = null;
+				}
+				
+			} 
+			catch (Exception e) 
+			{
+				e.printStackTrace();
+			}
+		return been;
+	}
+
+}

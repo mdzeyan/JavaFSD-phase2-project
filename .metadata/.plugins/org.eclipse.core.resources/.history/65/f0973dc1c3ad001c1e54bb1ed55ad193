@@ -1,0 +1,17 @@
+package com.learnersacademy.service;
+
+public class AdminService {
+	
+	public void login()
+	{
+		
+	}
+	
+	public void logout()
+	{
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,78 @@
+package com.learnersacademy.controller;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.learnersacademy.bean.StudentBean;
+import com.learnersacademy.service.StudentBusinessesService;
+
+
+public class StudentBusinessesServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	StudentBusinessesService service = new StudentBusinessesService();
+
+    public StudentBusinessesServlet() {
+        super();
+       
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
+		
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		System.out.println("post from StudentServlet");
+        
+        
+		if(buttonValue.equalsIgnoreCase("Save"))
+		{
+			int slNo = Integer.parseInt(request.getParameter("slNo"));
+			String firstName = request.getParameter("firstName");
+			String lastName = request.getParameter("lastName");
+			
+			System.out.println(slNo);
+			System.out.println(firstName);
+			System.out.println(lastName);
+			
+			StudentBean bean = new StudentBean();
+			bean.setSlNo(slNo);
+			bean.setFirstName(firstName);
+			bean.setLastName(lastName);
+			
+			boolean insertStatus = service.saveStudent(bean);
+			
+			if(insertStatus)
+			{
+				RequestDispatcher rd = request.getRequestDispatcher("/Sucess.html");
+				rd.forward(request, response);
+			}
+			else
+			{
+				RequestDispatcher rd = request.getRequestDispatcher("/Fail.html");
+				rd.forward(request, response);
+			}
+			
+		}
+		else if(buttonValue.equalsIgnoreCase("Delete"))
+		{
+			
+		}
+		else if(buttonValue.equalsIgnoreCase(request.getParameter("View")))
+		{
+			
+		}
+		
+	}
+
+}

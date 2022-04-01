@@ -1,0 +1,11 @@
+package com.learnersacademy.bean;
+
+public class TeacherBean {
+	
+	private int slNo;
+	private String firstName;
+	private String lastName;
+	
+	
+
+}

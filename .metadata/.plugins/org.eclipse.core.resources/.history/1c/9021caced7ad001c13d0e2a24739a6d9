@@ -1,0 +1,32 @@
+package com.learnersacademy.service;
+
+import com.learnersacademy.bean.AdminBean;
+import com.learnersacademy.dao.AdminDao;
+
+public class AdminService {
+	
+	AdminDao admDao = new AdminDao();
+	
+	public String login(AdminBean beanFromUser)
+	{
+		String user = null;
+		AdminBean beanFromDB = admDao.getAdminByUserName(beanFromUser.getUserName());
+		
+		if(beanFromUser.getUserName().equals(beanFromDB.getUserName())
+				&& beanFromUser.getPassword().equals(beanFromDB.getPassword()))
+		{
+			user = beanFromDB.getUserName();
+			return user;
+		}
+	}
+	
+	
+	
+	public void logout()
+	{
+		
+	}
+	
+	
+
+}

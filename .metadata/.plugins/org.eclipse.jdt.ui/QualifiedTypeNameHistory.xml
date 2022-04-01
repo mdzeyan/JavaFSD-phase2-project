@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.util.DBConnection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.UserDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.been.UserBeen"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.UserService"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.been.EmployeeBeen"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.bean.AdminBean"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.AdminService"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.bean.StudentBean"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.StudentBusinessesService"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.TeacherDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.TeacherBusinessesService"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.bean.TeacherBean"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.SubjectDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.SubjectBusinessesService"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.bean.SubjectBean"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.AddClassDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.AddClassBusinessesService"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.bean.AddClassBean"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.dao.ClassDao"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.service.ClassBusinessesService"/>
+    <fullyQualifiedTypeName name="com.learnersacademy.bean.ClassBean"/>
+</qualifiedTypeNameHistroy>

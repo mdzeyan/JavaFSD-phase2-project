@@ -1,0 +1,8 @@
+package com.learnersacademy.bean;
+
+public class SubjectBean {
+	
+	private int slNo;
+	private String subjectName;
+
+}

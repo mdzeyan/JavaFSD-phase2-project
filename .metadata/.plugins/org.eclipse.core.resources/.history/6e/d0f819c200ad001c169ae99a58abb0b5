@@ -1,0 +1,23 @@
+package com.learnersacademy.bean;
+
+public class StudentBean {
+	
+	private int slNo;
+	private String studentName;
+	
+	public int getSlNo() {
+		return slNo;
+	}
+	public void setSlNo(int slNo) {
+		this.slNo = slNo;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	
+	
+
+}

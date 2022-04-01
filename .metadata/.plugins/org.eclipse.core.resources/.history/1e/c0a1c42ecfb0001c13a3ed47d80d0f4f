@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2 align="center">Welcome to Classes page</h2>
+
+	<br>
+	<hr></hr>
+	<a href="AdminHome.html">Home</a>
+	<br><br>
+	<a href="ViewClassList.html">View  Classes List</a>
+	<br><br>
+	<a href="ViewClassList.html">View All Classes</a>
+	<br><br>
+	<a href="AddClass.html">Add Class</a>
+	<br><br>
+	<a href="DeleteClass.html">Delete Class</a>
+
+</body>
+</html>

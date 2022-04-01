@@ -1,0 +1,33 @@
+package com.learnersacademy.service;
+
+import java.util.List;
+
+import com.learnersacademy.bean.StudentBean;
+import com.learnersacademy.dao.StudentDao;
+import com.learnersacademy.dao.TeacherDao;
+
+public class TeacherBusinessesService {
+	
+    TeacherDao dao = new TeacherDao();
+	
+	public boolean saveTeacher(TeacherBean bean)
+	{
+		return dao.insertTeacher(bean);
+	}
+	
+	public int deleteStudent(StudentBean bean)
+	{
+		return dao.deleteStudentByFirstName(bean.getFirstName());
+	}
+	
+	public StudentBean viewStudent(int slNo)
+	{
+		return dao.getStudentByslNo(slNo);
+	}
+	
+	public List<StudentBean> viewAllStudent()
+	{
+		return dao.getAllStudents();
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.learnersacademy.service;
+
+import com.learnersacademy.dao.StudentDao;
+
+public class StudentBusinessesService {
+	
+	StudentDao dao = new StudentDao();
+	
+	public boolean saveStudent(StudentBean bean)
+	{
+		return dao.insertStudent(bean);
+	}
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="ClassBusinessesServlet" method="get">
+	<h2 align="center">Allot And Delete A teacher:</h2>
+	<br>
+	<hr>
+	<br>
+	<table align="center">
+	
+	
+		<tr>
+			<td>SlNo:</td>
+			<td><input type="text" name="slNo"></td>
+		</tr>
+		<tr>
+			<td>Allot Teacher Name:</td>
+			<td><input type="text" name="allocatedTeacher"></td>
+		</tr>
+		<tr>
+			<td>Allot Subject Name:</td>
+			<td><input type="text" name="allocatedSubject"></td>
+		</tr>
+		<tr>
+			<td>Allot Class Name:</td>
+			<td><input type="text" name="allocatedClass"></td>
+		</tr>	
+		
+		<tr>
+			<td align="center"><input type="submit" value="Find All" name="button"></td>
+			<td align="center"><input type="submit" value="Allot A Teacher" name="button"></td>	
+		</tr>
+	
+	</table>
+	<br><br>
+	<table align="center">
+		<tr>
+			<td>Allot Teacher Name:</td>
+			<td><input type="text" name="allocatedTeacher"></td>
+		</tr>
+		<tr>
+			<td align="center"><input align="center" type="submit" value="Delete" name="button"></td>
+		</tr>
+	</table>
+	</form>
+
+</body>
+</html>

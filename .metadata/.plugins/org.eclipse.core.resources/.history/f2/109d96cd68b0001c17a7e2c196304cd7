@@ -1,0 +1,7 @@
+package com.learnersacademy.bean;
+
+public class AddClassBean {
+	
+	private String clas;
+
+}

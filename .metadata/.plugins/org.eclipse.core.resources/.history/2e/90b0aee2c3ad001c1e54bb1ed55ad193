@@ -1,0 +1,22 @@
+package com.learnersacademy.service;
+
+import com.learnersacademy.bean.AdminBean;
+import com.learnersacademy.dao.AdminDao;
+
+public class AdminService {
+	
+	AdminDao admDao = new AdminDao();
+	
+	public void login(AdminBean beanFromUser)
+	{
+		AdminBean beanFromUser;
+	}
+	
+	public void logout()
+	{
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package com.learnersacademy.bean;
+
+public class ClassBean {
+	
+	private int slNo;
+	private String allocatedTeacher;
+	private String allocatedSubject;
+	private String allocatedClass;
+	
+	
+
+}

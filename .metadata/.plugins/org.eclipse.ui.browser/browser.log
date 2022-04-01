@@ -1,0 +1,56 @@
+
+Mar 27, 2022 20:04:47.241 NEW SESSION
+Mar 27, 2022 20:04:47.241 [8112:10388:0327/200447.237:ERROR:device_event_log_impl.cc(214)] [20:04:47.238] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 27, 2022 20:04:47.241 [8112:10388:0327/200447.239:ERROR:device_event_log_impl.cc(214)] [20:04:47.240] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 27, 2022 20:04:47.728 [8112:2680:0327/200447.728:ERROR:backend_impl.cc(1042)] Critical error found -8
+Mar 27, 2022 20:04:48.155 [8112:6988:0327/200448.155:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Mar 27, 2022 20:04:48.157 [8112:6988:0327/200448.155:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Mar 27, 2022 20:04:48.157 [8112:6988:0327/200448.155:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Mar 27, 2022 20:04:48.195 [8112:6988:0327/200448.195:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Mar 27, 2022 20:30:06.271 [8112:10388:0327/203006.270:ERROR:device_event_log_impl.cc(214)] [20:30:06.271] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
+Mar 27, 2022 20:37:52.107 [8112:1816:0327/203752.106:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 27, 2022 20:38:17.910 [8112:1816:0327/203817.910:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 27, 2022 20:39:14.153 [8112:1816:0327/203914.152:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 27, 2022 20:40:48.251 [8112:1816:0327/204048.251:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 27, 2022 20:43:57.573 [8112:1816:0327/204357.573:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 27, 2022 20:50:25.697 [8112:1816:0327/205025.696:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 27, 2022 23:50:36.820 [8112:10388:0327/235036.820:ERROR:usb_descriptors.cc(161)] Device descriptor parsing error.
+Mar 27, 2022 23:50:36.820 [8112:10388:0327/235036.820:ERROR:device_event_log_impl.cc(214)] [23:50:36.821] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_0bda&pid_0129#20100201396000000#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+Mar 28, 2022 24:35:23.301 [8112:10388:0328/003523.300:ERROR:usb_descriptors.cc(161)] Device descriptor parsing error.
+Mar 28, 2022 24:35:24.318 [8112:1816:0328/003524.317:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Mar 28, 2022 24:35:24.342 [8112:6516:0328/003524.341:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+Mar 28, 2022 24:35:27.465 [8112:10388:0328/003527.464:ERROR:device_event_log_impl.cc(214)] [00:35:27.464] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
+
+Apr 01, 2022 11:41:49.100 NEW SESSION
+Apr 01, 2022 11:41:49.100 [12216:7064:0401/114149.097:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Apr 01, 2022 11:41:49.226 [12216:7064:0401/114149.097:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Apr 01, 2022 11:41:49.226 [12216:7064:0401/114149.097:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Apr 01, 2022 11:41:49.227 [12216:9828:0401/114149.100:ERROR:device_event_log_impl.cc(214)] [11:41:49.100] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 11:41:49.227 [12216:9828:0401/114149.102:ERROR:device_event_log_impl.cc(214)] [11:41:49.102] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 11:41:49.227 [12216:7064:0401/114149.105:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Apr 01, 2022 11:41:49.227 [12216:4572:0401/114149.181:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 11:42:15.151 [12216:4572:0401/114215.151:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 11:43:14.580 [12216:4572:0401/114314.580:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 11:45:12.816 [12216:4572:0401/114512.816:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 11:48:13.571 [12216:4572:0401/114813.571:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 11:54:56.514 [12216:4572:0401/115456.514:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 11:56:26.702 [12216:9828:0401/115626.702:ERROR:device_event_log_impl.cc(214)] [11:56:26.702] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
+Apr 01, 2022 12:04:56.520 [12216:4572:0401/120456.520:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 12:14:56.525 [12216:4572:0401/121456.525:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 12:24:56.538 [12216:4572:0401/122456.538:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 12:34:56.547 [12216:4572:0401/123456.547:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 12:44:56.558 [12216:4572:0401/124456.558:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 14:55:15.541 [12216:9828:0401/145515.540:ERROR:device_event_log_impl.cc(214)] [14:55:15.522] USB: usb_service_win.cc:194 Failed to get device bus number: Element not found. (0x490)
+Apr 01, 2022 14:55:15.547 [12216:4572:0401/145515.547:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 14:55:36.272 [12216:9828:0401/145536.271:ERROR:device_event_log_impl.cc(214)] [14:55:36.271] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
+Apr 01, 2022 15:05:15.552 [12216:4572:0401/150515.551:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 15:15:15.557 [12216:4572:0401/151515.556:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 15:25:15.571 [12216:4572:0401/152515.570:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 15:35:15.582 [12216:4572:0401/153515.582:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 15:45:15.593 [12216:4572:0401/154515.593:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 15:55:15.596 [12216:4572:0401/155515.596:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2022 16:14:14.374 [12216:9828:0401/161414.374:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
+Apr 01, 2022 16:22:12.810 [12216:9828:0401/162212.810:ERROR:device_event_log_impl.cc(214)] [16:22:12.809] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
+Apr 01, 2022 16:29:31.51 [12216:9828:0401/162931.051:ERROR:CONSOLE(63)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (63)
+Apr 01, 2022 16:29:31.57 [12216:9828:0401/162931.057:ERROR:CONSOLE(63)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (63)
+Apr 01, 2022 16:29:31.58 [12216:9828:0401/162931.058:ERROR:CONSOLE(63)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (63)

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="AdminLoginServlet" method="post">
+	<h2 align="center">Login:</h2>
+	<hr>
+	<table align="center">
+		<tr>
+			<td>UserName:</td>
+			<td><input type="text" name="userName"></td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td><input type="password" name="passWord"></td>
+		</tr>
+		<tr>
+			<td align="center"><input type="reset" value="Reset"></td>
+			<td align="center"><input type="submit" value="Login"></td>
+		</tr>
+	
+	</table>
+	</form>
+
+</body>
+</html>

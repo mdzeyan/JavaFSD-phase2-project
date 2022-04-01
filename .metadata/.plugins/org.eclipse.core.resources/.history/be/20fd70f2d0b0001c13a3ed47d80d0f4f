@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="AddClassBusinessesServlet" method="get">
+	<h2 align="center">Add Class:</h2>
+	<hr>
+	<table align="center">
+		<tr>
+			<td>SlNo:</td>
+			<td><input type="text" name="slNo"></td>
+		</tr>
+		<tr>
+			<td>Class Name:</td>
+			<td><input type="text" name="subjectName"></td>
+		</tr>
+		<tr>
+			<td align="center"><input type="reset" value="Reset"></td>
+			<td align="center"><input type="submit" value="Save" name="button"></td>
+		</tr>
+	
+	</table>
+	</form>
+
+</body>
+</html>

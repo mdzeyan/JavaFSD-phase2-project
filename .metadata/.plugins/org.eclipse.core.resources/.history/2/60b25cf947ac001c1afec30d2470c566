@@ -1,0 +1,5 @@
+package com.learnersacademy.bean;
+
+public class TeacherBean {
+
+}
